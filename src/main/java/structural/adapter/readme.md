@@ -1,0 +1,1 @@
+![Adapter]( ../../../../../diagrams/adapter.jpeg)

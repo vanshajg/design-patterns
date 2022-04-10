@@ -1,13 +1,13 @@
 package structural.adapter;
 
 import lombok.AllArgsConstructor;
-import structural.adapter.roundpeg.Peg;
+import structural.adapter.roundpeg.RoundPeg;
 
 @AllArgsConstructor
 public class RoundHole {
     private int radius;
 
-    boolean canFit(Peg peg) {
+    boolean canFit(RoundPeg peg) {
         return radius >= peg.getRadius();
     }
 }

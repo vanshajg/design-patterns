@@ -7,7 +7,7 @@ import lombok.NoArgsConstructor;
 
 @NoArgsConstructor
 @AllArgsConstructor
-public class RoundPeg implements Peg {
+public class RoundPeg {
     @Getter
     private int radius;
 }
